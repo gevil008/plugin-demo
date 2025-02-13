@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/.run/Run IDE with Plugin.run.xml;E:/IdeaWorke-space/plugin-demo/src/main/java/com/example/plugindemo/Question.java;E:/IdeaWorke-space/plugin-demo/src/main/java/com/example/plugindemo/QuestionLoader.java;E:/IdeaWorke-space/plugin-demo/src/main/java/com/example/plugindemo/QuizToolWindowFactory.java;E:/IdeaWorke-space/plugin-demo/src/main/java/com/example/plugindemo/ShowQuizToolWindowAction.java;E:/IdeaWorke-space/plugin-demo/src/main/resources/META-INF/plugin.xml;E:/IdeaWorke-space/plugin-demo/src/main/resources/chapters.json;E:/IdeaWorke-space/plugin-demo/src/main/resources/questions.json" />
+  </component>
+</project>

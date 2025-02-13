@@ -1,0 +1,1954 @@
+[
+  {
+    "chapterName": "第一章 计算机系统基础知识",
+    "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+    "sort": 1,
+    "topicData": [
+      {
+        "topicId": "69BE84C2244028B8819169BE34019169BE84BD0004",
+        "topicName": "机器字长为n位的二进制数可以用补码来表示（ ）个不同的有符号定点小数。",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69BE84C3274028B8819169BE34019169BE84BD0006",
+        "analysis": "本题考查计算机系统的基础知识。\n二进制数据在计算机系统中的表示方法是最基本的专业知识。补码本身是带符号位的，补码表示的数字中0是唯一的，不像原码有+0和-0之分，也就意味着n位进制编码可以表示2n个不同的数。",
+        "topicImg": "4028B8819169BE34019169BE57480003.png",
+        "topicImgUrl": null,
+        "sort": 1,
+        "analysisImg": "4028B8819169BE34019169BE3E470001.png",
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69BE84C42A4028B8819169BE34019169BE84BD0008",
+            "optionName": null,
+            "tppicId": "69BE84C2244028B8819169BE34019169BE84BD0004",
+            "optionImg": "4028B8819169BE34019169BE3E470001.png",
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          },
+          {
+            "optionId": "69BE84C6304028B8819169BE34019169BE84BD000C",
+            "optionName": null,
+            "tppicId": "69BE84C2244028B8819169BE34019169BE84BD0004",
+            "optionImg": "4028B8819169BE34019169BE57480003.png",
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "69BE84C3274028B8819169BE34019169BE84BD0006",
+            "optionName": null,
+            "tppicId": "69BE84C2244028B8819169BE34019169BE84BD0004",
+            "optionImg": "4028B8819169BE34019169BE34100000.png",
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": true
+          },
+          {
+            "optionId": "69BE84C52D4028B8819169BE34019169BE84BD000A",
+            "optionName": null,
+            "tppicId": "69BE84C2244028B8819169BE34019169BE84BD0004",
+            "optionImg": "4028B8819169BE34019169BE49E80002.png",
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69C3D572054028B8819169BE34019169C3D5640012",
+        "topicName": "某机器字长为n，最高位是符号位，其定点整数的最大值为（ ）。",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69C3D5740B4028B8819169BE34019169C3D5640016",
+        "analysis": "本题考查计算机系统中的数据表示基础知识。\n机器字长为n，最高位为符号位，则剩余的n-1位用来表示数值，其最大值是这n-1位都为1，也就是2n-1-1。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 2,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69C3D573084028B8819169BE34019169C3D5640014",
+            "optionName": null,
+            "tppicId": "69C3D572054028B8819169BE34019169C3D5640012",
+            "optionImg": "4028B8819169BE34019169C326C1000E.png",
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "69C3D576114028B8819169BE34019169C3D564001A",
+            "optionName": null,
+            "tppicId": "69C3D572054028B8819169BE34019169C3D5640012",
+            "optionImg": "4028B8819169BE34019169C3AF2A0011.png",
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "69C3D5740B4028B8819169BE34019169C3D5640016",
+            "optionName": null,
+            "tppicId": "69C3D572054028B8819169BE34019169C3D5640012",
+            "optionImg": "4028B8819169BE34019169C34EF1000F.png",
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": true
+          },
+          {
+            "optionId": "69C3D5750E4028B8819169BE34019169C3D5640018",
+            "optionName": null,
+            "tppicId": "69C3D572054028B8819169BE34019169C3D5640012",
+            "optionImg": "4028B8819169BE34019169C379510010.png",
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69C4B7CE724028B8819169BE34019169C4B7BA001D",
+        "topicName": "要判断字长为16位的整数a的低四位是否全为0，则（ ）",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69C4B7CF754028B8819169BE34019169C4B7BA001F",
+        "analysis": "本题考查计算机系统基础知识。\n在位级表示中，将x与y进行“逻辑与”“逻辑或”和“逻辑异或”的结果如下所示。\n\n将整数a与0x000F4进行“逻辑与”运算，则运算结果中高12位都为0, 而位则完全是a的低4位，所以“逻辑与”运算的结果为0,则说明a的低4位为0。\n将整数a与0x000F4进行“逻辑或”运算，则运算结果中高12位都保留的是高12位，而低4位则全为1，所以“逻辑或”运算的结果不能判定a的低4位是否为1。\n将整数a与0xFFF0进行“逻辑异或”运算，则运算结果中高12位是将a的高12取反，而低4位则保留了a的低4位,所以“逻辑异或”运算的结果不能判定a的低4位是否为0，因为高12位中可能有0有1。\n将整数a与0xFFF0进行“逻辑或”运算，则运算结果中高12位全是1，而低4位则保留了a的低4位，所以“逻辑或”运算的结果不能判定a的低4位是否为0,因为高12位全是1。",
+        "topicImg": "4028B8819169BE34019169BE3E470001.png",
+        "topicImgUrl": null,
+        "sort": 3,
+        "analysisImg": "4028B8819169BE34019169BE57480003.png",
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69C4B7D17B4028B8819169BE34019169C4B7BA0023",
+            "optionName": "将a与0x000F进行\"逻辑异或\"运算，然后判断运算结果是否等于0",
+            "tppicId": "69C4B7CE724028B8819169BE34019169C4B7BA001D",
+            "optionImg": "4028B8819169BE34019169BE57480003.png",
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "69C4B7D0784028B8819169BE34019169C4B7BA0021",
+            "optionName": "将a与0x000F进行\"逻辑或\"运算，然后判断运算结果是否等于F",
+            "tppicId": "69C4B7CE724028B8819169BE34019169C4B7BA001D",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          },
+          {
+            "optionId": "69C4B7D27E4028B8819169BE34019169C4B7BA0025",
+            "optionName": "将a与0x000F进行\"逻辑与\"运算，然后判断运算结果是否等于F",
+            "tppicId": "69C4B7CE724028B8819169BE34019169C4B7BA001D",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "69C4B7CF754028B8819169BE34019169C4B7BA001F",
+            "optionName": "将a与0x000F进行\"逻辑与\"运算，然后判断运算结果是否等于0",
+            "tppicId": "69C4B7CE724028B8819169BE34019169C4B7BA001D",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": true
+          }
+        ]
+      },
+      {
+        "topicId": "69C746EFB44028B8819169BE34019169C746D0002D",
+        "topicName": "1",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69C746F3C04028B8819169BE34019169C746D00035",
+        "analysis": null,
+        "topicImg": "4028B8819169BE34019169C654430027.png",
+        "topicImgUrl": null,
+        "sort": 4,
+        "analysisImg": "4028B8819169BE34019169C7359C002C.png",
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69C746F3C04028B8819169BE34019169C746D00035",
+            "optionName": null,
+            "tppicId": "69C746EFB44028B8819169BE34019169C746D0002D",
+            "optionImg": "4028B8819169BE34019169C70098002B.png",
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": true
+          },
+          {
+            "optionId": "69C746F0B74028B8819169BE34019169C746D0002F",
+            "optionName": null,
+            "tppicId": "69C746EFB44028B8819169BE34019169C746D0002D",
+            "optionImg": "4028B8819169BE34019169C67F6D0028.png",
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "69C746F2BD4028B8819169BE34019169C746D00033",
+            "optionName": null,
+            "tppicId": "69C746EFB44028B8819169BE34019169C746D0002D",
+            "optionImg": "4028B8819169BE34019169C6DB13002A.png",
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "69C746F1BA4028B8819169BE34019169C746D00031",
+            "optionName": null,
+            "tppicId": "69C746EFB44028B8819169BE34019169C746D0002D",
+            "optionImg": "4028B8819169BE34019169C6ABBB0029.png",
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69C7CA81534028B8819169BE34019169C7CA5D0037",
+        "topicName": "浮点数的表示分为阶和尾数两部分。两个浮点数相加时，需要先对阶，即（ ）（n为阶差的绝对值）。",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69C7CA855F4028B8819169BE34019169C7CA5D003F",
+        "analysis": "本题考查数据表示和运算知识。\n浮点数的尾数和阶在表示时都规定了位数，而且尾数为纯小数，阶为纯整数。例如，若尾数为8位，阶为4位，设x的尾数为0.11010110、阶为0011，则表示数值0.11010110X23, 也就是110.10110;设y的尾数为0.10101011，阶为0110，则表示0.10101011X26,即101010.11,那么x+y=110001.01110=0.11000101X26。\n两个浮点数进行相加或相减运算时，需要先对阶，也就是小数点对齐后进行运算。\n如果大阶向小阶对齐，以上面的y为例，则需要将其表示为101.01011X23,在尾数为纯小数的情况下，整数部分（权值高）的101会被丢弃，这在y的表示上造成较大的表示误差，相加运算后的结果误差也大。\n若是小阶向大阶对齐，则需将上例中的x表示为0.00011010110X26,则其中权值较低的末尾3位110会丢弃，相加运算后结果的误差也较小，所以对阶时令阶小的数向阶大的数对齐，方式为尾数向右移，也就是丢弃权值较低的位，在高位补0。",
+        "topicImg": "4028B8819169BE34019169BE3E470001.png",
+        "topicImgUrl": null,
+        "sort": 5,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69C7CA82564028B8819169BE34019169C7CA5D0039",
+            "optionName": "将大阶向小阶对齐，同时将尾数左移n位",
+            "tppicId": "69C7CA81534028B8819169BE34019169C7CA5D0037",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "69C7CA83594028B8819169BE34019169C7CA5D003B",
+            "optionName": "将大阶向小阶对齐，同时将尾数右移n位",
+            "tppicId": "69C7CA81534028B8819169BE34019169C7CA5D0037",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          },
+          {
+            "optionId": "69C7CA845C4028B8819169BE34019169C7CA5D003D",
+            "optionName": "将小阶向大阶对齐，同时将尾数左移n位",
+            "tppicId": "69C7CA81534028B8819169BE34019169C7CA5D0037",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "69C7CA855F4028B8819169BE34019169C7CA5D003F",
+            "optionName": "将小阶向大阶对齐，同时将尾数右移n位",
+            "tppicId": "69C7CA81534028B8819169BE34019169C7CA5D0037",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": true
+          }
+        ]
+      },
+      {
+        "topicId": "69C8792C0D4028B8819169BE34019169C879030041",
+        "topicName": "以下关于两个浮点数相加运算的叙述中，正确的是（ ）.",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69C8792E134028B8819169BE34019169C879030045",
+        "analysis": "本题考査计算机系统的基础知识。\n浮点数进行加减运算需要以下步骤：\n①对阶。即比较两个浮点数的阶码，求其差值。若差值不为0,则将阶码小者的尾数右移差值的绝对值位，其阶码值加上差值的绝对值，使两者的阶码相同。\n②尾数相加(减)。对两个完成对阶后的浮点数执行求和（差）操作。\n③规格化处理。若得到的结果不满足规格化规则，就必须把它变成规格化的数。\n④舍入操作。在执行对阶或规格化操作时，会使尾数低位上的一位或多位的数值被移掉，使数位的精度受到影响，可以把移掉的几个高位的值保存起来供舍入使用。\n⑤判结果的正确性，即检查阶码是否溢出。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 6,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": 0,
+        "optionData": [
+          {
+            "optionId": "69C87930194028B8819169BE34019169C879030049",
+            "optionName": "不需要对阶，直接将阶码相加",
+            "tppicId": "69C8792C0D4028B8819169BE34019169C879030041",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "69C8792F164028B8819169BE34019169C879030047",
+            "optionName": "不需要对阶，直接将尾数相加",
+            "tppicId": "69C8792C0D4028B8819169BE34019169C879030041",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "69C8792E134028B8819169BE34019169C879030045",
+            "optionName": "首先进行对阶，阶码小的向阶码大的对齐",
+            "tppicId": "69C8792C0D4028B8819169BE34019169C879030041",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": true
+          },
+          {
+            "optionId": "69C8792D104028B8819169BE34019169C879030043",
+            "optionName": "首先进行对阶，阶码大的向阶码小的对齐",
+            "tppicId": "69C8792C0D4028B8819169BE34019169C879030041",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69C9669B904028B8819169BE34019169C96669004F",
+        "topicName": "采用n位补码（包含一个符号位）表示数据，可以直接表示数值（ ）。",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69C9669F9C4028B8819169BE34019169C966690057",
+        "analysis": "在计算机中，n位补码(最高位符号位，n-1位数据位)，表示范围是-2n-1~+2n-1-1，其中最小值为人为定义，以n=8为例,其中-128的补码是人为定义的1000 0000。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 7,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69C9669F9C4028B8819169BE34019169C966690057",
+            "optionName": null,
+            "tppicId": "69C9669B904028B8819169BE34019169C96669004F",
+            "optionImg": "4028B8819169BE34019169C94627004E.png",
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": true
+          },
+          {
+            "optionId": "69C9669E994028B8819169BE34019169C966690055",
+            "optionName": null,
+            "tppicId": "69C9669B904028B8819169BE34019169C96669004F",
+            "optionImg": "4028B8819169BE34019169C91BEF004D.png",
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "69C9669C934028B8819169BE34019169C966690051",
+            "optionName": null,
+            "tppicId": "69C9669B904028B8819169BE34019169C96669004F",
+            "optionImg": "4028B8819169BE34019169C8C147004B.png",
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "69C9669D964028B8819169BE34019169C966690053",
+            "optionName": null,
+            "tppicId": "69C9669B904028B8819169BE34019169C96669004F",
+            "optionImg": "4028B8819169BE34019169C8F136004C.png",
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69CA347E824028B8819169BE34019169CA34470059",
+        "topicName": "如果“2x”的补码是“90H”，那么x的真值是（ ）。",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69CA3480884028B8819169BE34019169CA3447005D",
+        "analysis": "首先判断符号位（最高位），为0，表示该数为正数，正数的原码、反码、补码不变；为1，则该数为负数，负数的补码为其原码的符号位不变，数值部分的按位取反，然后整个数加1。90H=1001 0000，补码为：1001 0000原码为1111 0000其中最高位代表符号位，1110000代表数值，即-112，2X=-112，所以X=-56。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 8,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": 1,
+        "optionData": [
+          {
+            "optionId": "69CA347F854028B8819169BE34019169CA3447005B",
+            "optionName": "72",
+            "tppicId": "69CA347E824028B8819169BE34019169CA34470059",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "69CA3480884028B8819169BE34019169CA3447005D",
+            "optionName": "-56",
+            "tppicId": "69CA347E824028B8819169BE34019169CA34470059",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": true
+          },
+          {
+            "optionId": "69CA34828E4028B8819169BE34019169CA34470061",
+            "optionName": "111",
+            "tppicId": "69CA347E824028B8819169BE34019169CA34470059",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "69CA34818B4028B8819169BE34019169CA3447005F",
+            "optionName": "56",
+            "tppicId": "69CA347E824028B8819169BE34019169CA34470059",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69CBB475934028B8819169BE34019169CBB4330069",
+        "topicName": "设16位浮点数，其中阶符1位、阶码值6位、数符1位、尾数8位。若阶码用移码表示，尾数用补码表示，则该浮点数所能表示的数值范围是（ ）。",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69CBB477994028B8819169BE34019169CBB433006D",
+        "analysis": "",
+        "topicImg": "",
+        "topicImgUrl": null,
+        "sort": 9,
+        "analysisImg": "4028B8819169BE34019169CBB0140068.png",
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69CBB476964028B8819169BE34019169CBB433006B",
+            "optionName": null,
+            "tppicId": "69CBB475934028B8819169BE34019169CBB4330069",
+            "optionImg": "4028B8819169BE34019169CADDC90065.png",
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "69CBB477994028B8819169BE34019169CBB433006D",
+            "optionName": null,
+            "tppicId": "69CBB475934028B8819169BE34019169CBB4330069",
+            "optionImg": "4028B8819169BE34019169CAC19A0064.png",
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": true
+          },
+          {
+            "optionId": "69CBB4789C4028B8819169BE34019169CBB433006F",
+            "optionName": null,
+            "tppicId": "69CBB475934028B8819169BE34019169CBB4330069",
+            "optionImg": "4028B8819169BE34019169CB0B930066.png",
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "69CBB4799F4028B8819169BE34019169CBB4330071",
+            "optionName": null,
+            "tppicId": "69CBB475934028B8819169BE34019169CBB4330069",
+            "optionImg": "4028B8819169BE34019169CB365E0067.png",
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69CD7810434028B8819169BE34019169CD77C90073",
+        "topicName": "浮点数能够表示的数的范围是由其（ ）的位数决定的。",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69CD7812494028B8819169BE34019169CD77C90077",
+        "analysis": "本题考查计算机组成基础知识。\n在计算机中使用了类似于十进制科学计数法的方法来表示二进制实数，因其表示不同的数时小数点位置的浮动不固定而取名浮点数表示法。浮点数编码由两部分组成：阶码(即指数，为带符号定点整数，常用移码表示，也有用补码的)和尾数(是定点纯小数，常用补码表示，或原码表示)。因此可以知道，浮点数的精度由尾数的位数决定，表示范围的大小则主要由阶码的位数决定。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 10,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69CD7811464028B8819169BE34019169CD77C90075",
+            "optionName": "尾数",
+            "tppicId": "69CD7810434028B8819169BE34019169CD77C90073",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "69CD78144F4028B8819169BE34019169CD77C9007B",
+            "optionName": "阶符",
+            "tppicId": "69CD7810434028B8819169BE34019169CD77C90073",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "69CD7812494028B8819169BE34019169CD77C90077",
+            "optionName": "阶码",
+            "tppicId": "69CD7810434028B8819169BE34019169CD77C90073",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": true
+          },
+          {
+            "optionId": "69CD78134C4028B8819169BE34019169CD77C90079",
+            "optionName": "数符",
+            "tppicId": "69CD7810434028B8819169BE34019169CD77C90073",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69CE04C7084028B8819169BE34019169CE047B007D",
+        "topicName": "若计算机存储数据采用的是双符号位(00表示正号、11表示负号)，两个符号相同的数相加时，如果运算结果的两个符号位经（ ）运算得1，则可断定这两个数相加的结果产生了溢出。",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69CE04CB144028B8819169BE34019169CE047B0085",
+        "analysis": "本题考查计算机系统基础知识。\n当表示数据时并规定了位数后，其能表示的数值范围就确定了，在两个数进行相加运算的结果超出了该范围后，就发生了溢出。在二进制情况下，溢出时符号位将变反，即两个正数相加，结果的符号位是负数，或者两个负数相加，结果的符号位是正数。采用两个符号位时，溢出发生后两个符号位就不一致了，这两位进行异或的结果一定为1。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 11,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69CE04CA114028B8819169BE34019169CE047B0083",
+            "optionName": "逻辑同或",
+            "tppicId": "69CE04C7084028B8819169BE34019169CE047B007D",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "69CE04CB144028B8819169BE34019169CE047B0085",
+            "optionName": "逻辑异或",
+            "tppicId": "69CE04C7084028B8819169BE34019169CE047B007D",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": true
+          },
+          {
+            "optionId": "69CE04C90E4028B8819169BE34019169CE047B0081",
+            "optionName": "逻辑或",
+            "tppicId": "69CE04C7084028B8819169BE34019169CE047B007D",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          },
+          {
+            "optionId": "69CE04C80B4028B8819169BE34019169CE047B007F",
+            "optionName": "逻辑与",
+            "tppicId": "69CE04C7084028B8819169BE34019169CE047B007D",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69CEF3CB1D4028B8819169BE34019169CEF3790088",
+        "topicName": "以下关于数的定点表示和浮点表示的叙述中，不正确的是（ ）",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69CEF3CD234028B8819169BE34019169CEF379008C",
+        "analysis": "本题考查数据表示基础知识。\n各种数据在计算机中表示的形式称为机器数，其特点是采用二进制计数制，数的符号用0、1表示，小数点则隐含表示而不占位置。机器数对应的实际数值称为数的真值。\n为了便于运算，带符号的机器数可采用原码、反码、补码和移码等不同的编码方法。\n所谓定点数，就是表示数据时小数点的位置固定不变。小数点的位置通常有两种约定方式：定点整数（纯整数，小数点在最低有效数值位之后）和定点小数（纯小数，小数点在最高有效数值位之前)。\n当机器字长为n时，定点数的补码和移码可表示2^n个数，而其原码和反码只能表示2^n-1个数（0表示占用了两个编码)，因此，定点数所能表示的数值范围比较小， 运算中很容易因结果超出范围而溢出。\n数的浮点表示的一般形式为：N=2E×F,其中E称为阶码，F为尾数。阶码通常为带符号的纯整数，尾数为带符号的纯小数。浮点数的表示格式如下：\n\n很明显，一个数的浮点表示不是唯一的。当小数点的位置改变时，阶码也相应改变，因此可以用多种浮点形式表示同一个数。\n浮点数所能表示的数值范围主要由阶码决定，所表示数值的精度则由尾数决定。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 12,
+        "analysisImg": "4028B8819169BE34019169CEEF670087.jpg",
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69CEF3CE264028B8819169BE34019169CEF379008E",
+            "optionName": "浮点表示法用阶码和尾数来表示数，称为浮点数",
+            "tppicId": "69CEF3CB1D4028B8819169BE34019169CEF3790088",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "69CEF3CC204028B8819169BE34019169CEF379008A",
+            "optionName": "定点表示法表示的数（称为定点数）常分为定点整数和定点小数两种",
+            "tppicId": "69CEF3CB1D4028B8819169BE34019169CEF3790088",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "69CEF3CD234028B8819169BE34019169CEF379008C",
+            "optionName": "定点表示法中，小数点需要占用一个存储位",
+            "tppicId": "69CEF3CB1D4028B8819169BE34019169CEF3790088",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": true
+          },
+          {
+            "optionId": "69CEF3CF294028B8819169BE34019169CEF3790090",
+            "optionName": "在总位数相同的情况下，浮点表示法可以表示更大的数",
+            "tppicId": "69CEF3CB1D4028B8819169BE34019169CEF3790088",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69CF91AC0C4028B8819169BE34019169CF91550092",
+        "topicName": "对于长度相同但格式不同的两种浮点数，假设前者阶码长、尾数短，后者阶码短、尾数长，其他规定都相同，则二者可表示数值的范围和精度情况为（ ）。",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69CF91AF154028B8819169BE34019169CF91550098",
+        "analysis": "一个二进制数N可以表示为更一般的形式N=2E×F，其中E称为阶码，F称为尾数。用阶码和尾数表示的数称为浮点数，这种表示数的方法称为浮点表示法。\n\n阶码越长的数，表示的数的范围越大；尾数越长的数，表示的精度越高。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 13,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69CF91B0184028B8819169BE34019169CF9155009A",
+            "optionName": "前者所表示的数的范围更小但精度更高",
+            "tppicId": "69CF91AC0C4028B8819169BE34019169CF91550092",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "69CF91AD0F4028B8819169BE34019169CF91550094",
+            "optionName": "二者可表示的数的范围和精度相同",
+            "tppicId": "69CF91AC0C4028B8819169BE34019169CF91550092",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "69CF91AE124028B8819169BE34019169CF91550096",
+            "optionName": "前者所表示的数的范围更大且精度更高",
+            "tppicId": "69CF91AC0C4028B8819169BE34019169CF91550092",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          },
+          {
+            "optionId": "69CF91AF154028B8819169BE34019169CF91550098",
+            "optionName": "前者所表示的数的范围更大但精度更低",
+            "tppicId": "69CF91AC0C4028B8819169BE34019169CF91550092",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": true
+          }
+        ]
+      },
+      {
+        "topicId": "69D01CDF4D4028B8819169BE34019169D01C83009C",
+        "topicName": "原码表示法和补码表示法是计算机中用于表示数据的两种编码方法，在计算机系统中常采用补码来表示和运算数据，原因是采用补码可以（ ） 。",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69D01CE1534028B8819169BE34019169D01C8300A0",
+        "analysis": "本题考査数据表示的基础知识。\n使用补码表示数据时，可以将符号位和其他位统一处理，减法也可按加法来处理，从而简化运算部件的设计。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 14,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69D01CE0504028B8819169BE34019169D01C83009E",
+            "optionName": "保证运算过程与手工运算方法保持一致",
+            "tppicId": "69D01CDF4D4028B8819169BE34019169D01C83009C",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "69D01CE3594028B8819169BE34019169D01C8300A4",
+            "optionName": "提高数据的运算精度",
+            "tppicId": "69D01CDF4D4028B8819169BE34019169D01C83009C",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "69D01CE1534028B8819169BE34019169D01C8300A0",
+            "optionName": "简化计算机运算部件的设计",
+            "tppicId": "69D01CDF4D4028B8819169BE34019169D01C83009C",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": true
+          },
+          {
+            "optionId": "69D01CE2564028B8819169BE34019169D01C8300A2",
+            "optionName": "提高数据的运算速度",
+            "tppicId": "69D01CDF4D4028B8819169BE34019169D01C83009C",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69D09E71EC4028B8819169BE34019169D09E1000A6",
+        "topicName": "计算机系统中采用补码表示有符号的数值，（ ）。",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69D09E75F84028B8819169BE34019169D09E1000AE",
+        "analysis": "计算机系统中使用补码的好处有:\n1、可以将符号位和有效数值位统一处理，简化运算规则;\n2、减法运算可按加法来处理，进—步简化计算机中运算器的线路设计。\n本题D选项说法是正确的。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 15,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69D09E75F84028B8819169BE34019169D09E1000AE",
+            "optionName": "可以将减法运算转化为加法运算从而简化运算器的设计",
+            "tppicId": "69D09E71EC4028B8819169BE34019169D09E1000A6",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": true
+          },
+          {
+            "optionId": "69D09E73F24028B8819169BE34019169D09E1000AA",
+            "optionName": "可以提高运算过程和结果的精准程度",
+            "tppicId": "69D09E71EC4028B8819169BE34019169D09E1000A6",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          },
+          {
+            "optionId": "69D09E74F54028B8819169BE34019169D09E1000AC",
+            "optionName": "可以提高加法和减法运算的速度",
+            "tppicId": "69D09E71EC4028B8819169BE34019169D09E1000A6",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "69D09E72EF4028B8819169BE34019169D09E1000A8",
+            "optionName": "可以保持加法和减法运算过程与手工运算方式一致",
+            "tppicId": "69D09E71EC4028B8819169BE34019169D09E1000A6",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69D2149C314028B8819169BE34019169D2143000B6",
+        "topicName": "某种机器的浮点数表示格式如下(允许非规格化表示)。若阶码以补码表示，尾数以原码表示，则1000100000000001表示的浮点数是（ ）。",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69D2149E374028B8819169BE34019169D2143000BA",
+        "analysis": null,
+        "topicImg": "4028B8819169BE34019169D113F700B0.jpg",
+        "topicImgUrl": null,
+        "sort": 16,
+        "analysisImg": "4028B8819169BE34019169D2003A00B5.png",
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69D2149F3A4028B8819169BE34019169D2143000BC",
+            "optionName": null,
+            "tppicId": "69D2149C314028B8819169BE34019169D2143000B6",
+            "optionImg": "4028B8819169BE34019169D1A0B500B3.png",
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "69D214A03D4028B8819169BE34019169D2143000BE",
+            "optionName": null,
+            "tppicId": "69D2149C314028B8819169BE34019169D2143000B6",
+            "optionImg": "4028B8819169BE34019169D1C9B000B4.png",
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "69D2149E374028B8819169BE34019169D2143000BA",
+            "optionName": null,
+            "tppicId": "69D2149C314028B8819169BE34019169D2143000B6",
+            "optionImg": "4028B8819169BE34019169D16FBC00B2.png",
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": true
+          },
+          {
+            "optionId": "69D2149D344028B8819169BE34019169D2143000B8",
+            "optionName": null,
+            "tppicId": "69D2149C314028B8819169BE34019169D2143000B6",
+            "optionImg": "4028B8819169BE34019169D1405500B1.png",
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69D308791E4028B8819169BE34019169D3080800C0",
+        "topicName": "浮点数的一般表示形式为N = 2ExF，其中E为阶码，F为尾数。以下关于浮点表示的叙述中，错误的是（ ）。两个浮点数进行相加运算，应首先（ ）。",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69D3087C274028B8819169BE34019169D3080800C6",
+        "analysis": "本题考查数据表示基础知识。\n为了提高运算的精度，需要充分地利用尾数的有效数位，通常采取浮点数规格化形式，即规定尾数的最高数位必须是一个有效值，即1/2<|F|<1。在尾数用补码表示时，规格化浮点数应满足尾数最高数位与符号位不同，即当1/2≤∣F∣<1时，应有0.1xx...x形式；当-1≤M<-1/2 时，应有1.0xx...x 形式。\n需要注意的是，当M=-1/2时，对于原码来说是规格化数，而对于补码来说不是规格化数。\n两个浮点数进行相加运算时，首先需要对阶（使它们的阶码一致），然后再进行尾数的相加处理。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 17,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69D3087D2A4028B8819169BE34019169D3080800C8",
+            "optionName": "规格化表示要求将尾数的绝对值限定在区间[0.5, 1)",
+            "tppicId": "69D308791E4028B8819169BE34019169D3080800C0",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "69D3087A214028B8819169BE34019169D3080800C2",
+            "optionName": "阶码的长度决定浮点表示的范围，尾数的长度决定浮点表示的精度",
+            "tppicId": "69D308791E4028B8819169BE34019169D3080800C0",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "69D3087C274028B8819169BE34019169D3080800C6",
+            "optionName": "规格化指的是阶码采用移码、尾数采用补码",
+            "tppicId": "69D308791E4028B8819169BE34019169D3080800C0",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": true
+          },
+          {
+            "optionId": "69D3087B244028B8819169BE34019169D3080800C4",
+            "optionName": "工业标准IEEE754浮点数格式中阶码采用移码、尾数采用原码表示",
+            "tppicId": "69D308791E4028B8819169BE34019169D3080800C0",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69D407661B4028B8819169BE34019169D406F000CA",
+        "topicName": "浮点数的一般表示形式为N = 2ExF，其中E为阶码，F为尾数。以下关于浮点表示的叙述中，错误的是（ ）。两个浮点数进行相加运算，应首先（ ）。",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69D4076A274028B8819169BE34019169D406F000D2",
+        "analysis": "本题考查数据表示基础知识。\n为了提高运算的精度，需要充分地利用尾数的有效数位，通常采取浮点数规格化形式，即规定尾数的最高数位必须是一个有效值，即1/2<|F|<1。在尾数用补码表示时，规格化浮点数应满足尾数最高数位与符号位不同，即当1/2≤∣F∣<1时，应有0.1xx...x形式； 当-1≤M<-1/2 时，应有 1.0xx...x 形式。\n需要注意的是，当M=-1/2时，对于原码来说是规格化数，而对于补码来说不是规格化数。\n两个浮点数进行相加运算时，首先需要对阶（使它们的阶码一致），然后再进行尾数的相加处理。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 18,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69D40769244028B8819169BE34019169D406F000D0",
+            "optionName": "将这两个数的尾数相加",
+            "tppicId": "69D407661B4028B8819169BE34019169D406F000CA",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "69D4076A274028B8819169BE34019169D406F000D2",
+            "optionName": "统一这两个数的阶码",
+            "tppicId": "69D407661B4028B8819169BE34019169D406F000CA",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": true
+          },
+          {
+            "optionId": "69D40768214028B8819169BE34019169D406F000CE",
+            "optionName": "将较小的数进行规格化处理",
+            "tppicId": "69D407661B4028B8819169BE34019169D406F000CA",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          },
+          {
+            "optionId": "69D407671E4028B8819169BE34019169D406F000CC",
+            "optionName": "将较大的数进行规格化处理",
+            "tppicId": "69D407661B4028B8819169BE34019169D406F000CA",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69D50710D74028B8819169BE34019169D5069400D5",
+        "topicName": "若某整数的16位补码为FFFFh (H表示十六进制），则该数的十进制值为（ ）。",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69D50712DD4028B8819169BE34019169D5069400D9",
+        "analysis": null,
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 19,
+        "analysisImg": "4028B8819169BE34019169D4FF5B00D4.png",
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69D50714E34028B8819169BE34019169D5069400DD",
+            "optionName": "-2^16-1",
+            "tppicId": "69D50710D74028B8819169BE34019169D5069400D5",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "69D50713E04028B8819169BE34019169D5069400DB",
+            "optionName": "2^16-1",
+            "tppicId": "69D50710D74028B8819169BE34019169D5069400D5",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "69D50712DD4028B8819169BE34019169D5069400D9",
+            "optionName": "-1",
+            "tppicId": "69D50710D74028B8819169BE34019169D5069400D5",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": true
+          },
+          {
+            "optionId": "69D50711DA4028B8819169BE34019169D5069400D7",
+            "optionName": "0",
+            "tppicId": "69D50710D74028B8819169BE34019169D5069400D5",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69D5A22C014028B8819169BE34019169D5A1AB00DF",
+        "topicName": "若某计算机采用8位整数补码表示数据，则运算（ ）将产生溢出。",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69D5A22F0A4028B8819169BE34019169D5A1AB00E5",
+        "analysis": "本题考查计算机中的数据表示和运算基础知识。\n釆用8位补码表示整型数据时，可表示的数据范围为-128~127,因此进行127+1运算会产生溢出。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 20,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69D5A22F0A4028B8819169BE34019169D5A1AB00E5",
+            "optionName": "127+1",
+            "tppicId": "69D5A22C014028B8819169BE34019169D5A1AB00DF",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": true
+          },
+          {
+            "optionId": "69D5A2300D4028B8819169BE34019169D5A1AB00E7",
+            "optionName": "127-1",
+            "tppicId": "69D5A22C014028B8819169BE34019169D5A1AB00DF",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "69D5A22E074028B8819169BE34019169D5A1AB00E3",
+            "optionName": "-127-1",
+            "tppicId": "69D5A22C014028B8819169BE34019169D5A1AB00DF",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          },
+          {
+            "optionId": "69D5A22D044028B8819169BE34019169D5A1AB00E1",
+            "optionName": "-127+1",
+            "tppicId": "69D5A22C014028B8819169BE34019169D5A1AB00DF",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69D657957A4028B8819169BE34019169D6570E00EA",
+        "topicName": "计算机中常采用原码、反码、补码和移码表示数据，其中，±0编码相同的是（ ）。",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69D65798834028B8819169BE34019169D6570E00F0",
+        "analysis": null,
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 21,
+        "analysisImg": "4028B8819169BE34019169D650EB00E9.png",
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69D65798834028B8819169BE34019169D6570E00F0",
+            "optionName": "补码和移码",
+            "tppicId": "69D657957A4028B8819169BE34019169D6570E00EA",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": true
+          },
+          {
+            "optionId": "69D65797804028B8819169BE34019169D6570E00EE",
+            "optionName": "反码和补码",
+            "tppicId": "69D657957A4028B8819169BE34019169D6570E00EA",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          },
+          {
+            "optionId": "69D657967D4028B8819169BE34019169D6570E00EC",
+            "optionName": "原码和补码",
+            "tppicId": "69D657957A4028B8819169BE34019169D6570E00EA",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "69D65799864028B8819169BE34019169D6570E00F2",
+            "optionName": "原码和移码",
+            "tppicId": "69D657957A4028B8819169BE34019169D6570E00EA",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69D6FAC8BB4028B8819169BE34019169D6FA3C00F4",
+        "topicName": "计算机中的浮点数由三部分组成：符号位S，指数部分E (称为阶码）和尾数部分M。在总长度固定的情况下，增加E的位数、减少M的位数可以（ ）。",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69D6FAC9BE4028B8819169BE34019169D6FA3C00F6",
+        "analysis": "本题考查数据表示的基础知识。\n浮点数在计算机中用以近似表示任意某个实数，一个浮点数a可如下表示：\na = MXbE\n其中，尾数部分M的位数越多，数的精度越高，指数部分E的位数越多，能表示的数值越大。因此在总长度固定的情况下，增加E的位数、减少M的位数可以扩大可表示的数的范围同时降低精度。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 22,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69D6FACCC74028B8819169BE34019169D6FA3C00FC",
+            "optionName": "减小可表示的数的范围同时提高精度",
+            "tppicId": "69D6FAC8BB4028B8819169BE34019169D6FA3C00F4",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "69D6FACBC44028B8819169BE34019169D6FA3C00FA",
+            "optionName": "减小可表示的数的范围同时降低精度",
+            "tppicId": "69D6FAC8BB4028B8819169BE34019169D6FA3C00F4",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "69D6FAC9BE4028B8819169BE34019169D6FA3C00F6",
+            "optionName": "扩大可表示的数的范围同时降低精度",
+            "tppicId": "69D6FAC8BB4028B8819169BE34019169D6FA3C00F4",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": true
+          },
+          {
+            "optionId": "69D6FACAC14028B8819169BE34019169D6FA3C00F8",
+            "optionName": "扩大可表示的数的范围同时提高精度",
+            "tppicId": "69D6FAC8BB4028B8819169BE34019169D6FA3C00F4",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "69D8C737464028B8819169BE34019169D8C6A00104",
+        "topicName": "1",
+        "chapterId": "4FCA82236B2CA70ED4914FCA8201914FCA82220000",
+        "optionId": "69D8C73B524028B8819169BE34019169D8C6A0010C",
+        "analysis": null,
+        "topicImg": "4028B8819169BE34019169D73E3B00FE.png",
+        "topicImgUrl": null,
+        "sort": 23,
+        "analysisImg": "4028B8819169BE34019169D8B2CA0103.png",
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "69D8C73A4F4028B8819169BE34019169D8C6A0010A",
+            "optionName": null,
+            "tppicId": "69D8C737464028B8819169BE34019169D8C6A00104",
+            "optionImg": "4028B8819169BE34019169D81DF40101.png",
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "69D8C7394C4028B8819169BE34019169D8C6A00108",
+            "optionName": null,
+            "tppicId": "69D8C737464028B8819169BE34019169D8C6A00104",
+            "optionImg": "4028B8819169BE34019169D7EBDA0100.png",
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          },
+          {
+            "optionId": "69D8C738494028B8819169BE34019169D8C6A00106",
+            "optionName": null,
+            "tppicId": "69D8C737464028B8819169BE34019169D8C6A00104",
+            "optionImg": "4028B8819169BE34019169D7C36200FF.png",
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "69D8C73B524028B8819169BE34019169D8C6A0010C",
+            "optionName": null,
+            "tppicId": "69D8C737464028B8819169BE34019169D8C6A00104",
+            "optionImg": "4028B8819169BE34019169D871A20102.png",
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapterName": "第二章 系统开发和运算知识",
+    "chapterId": "4FCA82246E2CA70ED4914FCA8201914FCA82220002",
+    "sort": 2,
+    "topicData": [
+      {
+        "topicId": "88064A2D984028818C91879841019188064954019B",
+        "topicName": "运行下面的C程序代码段，会出现（ ）错误。\nint k=0;\nfor（;k<100;）;\n{k++;}",
+        "chapterId": "4FCA82246E2CA70ED4914FCA8201914FCA82220002",
+        "optionId": "88064A31A44028818C9187984101918806495401A3",
+        "analysis": "代码段中“for（；k<100；）；”的循环体为空语句，循环条件中的k值在循环中没有改变，因此“k<100”是一直成立的，此代码段是无限循环的，只有运行时才能表现出来，属于动态语义错误。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 1,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "88064A2E9B4028818C91879841019188064954019D",
+            "optionName": "变量未定义",
+            "tppicId": "88064A2D984028818C91879841019188064954019B",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "88064A30A14028818C9187984101918806495401A1",
+            "optionName": "语法",
+            "tppicId": "88064A2D984028818C91879841019188064954019B",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "88064A31A44028818C9187984101918806495401A3",
+            "optionName": "动态语义",
+            "tppicId": "88064A2D984028818C91879841019188064954019B",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": true
+          },
+          {
+            "optionId": "88064A2F9E4028818C91879841019188064954019F",
+            "optionName": "静态语义",
+            "tppicId": "88064A2D984028818C91879841019188064954019B",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "8806E882FC4028818C9187984101918806E7A301A6",
+        "topicName": "下图是HTML文件test.html在IE中的显示效果，实现图中①处效果的HTML语句是（ ），实现图中②处效果的HTML语句是（/），实现图中③处效果的HTML 语句是（/）。",
+        "chapterId": "4FCA82246E2CA70ED4914FCA8201914FCA82220002",
+        "optionId": "8806E883FF4028818C9187984101918806E7A301A8",
+        "analysis": "①处显示的信息为文档的标题，釆用<TITLE></TITLE>标记。\n②处为一条分隔线， 釆用<HR>标记。\n③处字体Welcome是斜体，釆用<I></I>标记。",
+        "topicImg": "4028818C91879841019188067B9A01A5.png",
+        "topicImgUrl": null,
+        "sort": 2,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "8806E886084028818C9187984101918806E7A301AE",
+            "optionName": "<H1>我的主页</Hl>",
+            "tppicId": "8806E882FC4028818C9187984101918806E7A301A6",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "8806E885054028818C9187984101918806E7A301AC",
+            "optionName": "<BODY>我的主页</BODY >",
+            "tppicId": "8806E882FC4028818C9187984101918806E7A301A6",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "8806E884024028818C9187984101918806E7A301AA",
+            "optionName": "<HEAD>我的主页</HEAD >",
+            "tppicId": "8806E882FC4028818C9187984101918806E7A301A6",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          },
+          {
+            "optionId": "8806E883FF4028818C9187984101918806E7A301A8",
+            "optionName": "<TITLE>我的主页</TITLE>",
+            "tppicId": "8806E882FC4028818C9187984101918806E7A301A6",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": true
+          }
+        ]
+      },
+      {
+        "topicId": "88075E6FF74028818C91879841019188075D8A01B1",
+        "topicName": "编译器和解释器是两种基本的高级语言处理程序。编译器对高级语言源程序的处理过程可以划分为词法分析、语法分析、语义分析、中间代码生成、代码优化、目标代码生成等阶段，其中，（/）并不是每个编译器都必需的，与编译器相比，解释器（ ）。",
+        "chapterId": "4FCA82246E2CA70ED4914FCA8201914FCA82220002",
+        "optionId": "88075E71FD4028818C91879841019188075D8A01B5",
+        "analysis": "解释程序也称为解释器，它可以直接解释执行源程序，或者将源程序翻译成某种中间表示形式后再加以执行；而编译程序（编译器）则首先将源程序翻译成目标语言程序，然后在计算机上运行目标程序。这两种语言处理程序的根本区别是：在编译方式下，机器上运行的是与源程序等价的目标程序，源程序和编译程序都不再参与目标程序的执行过程；而在解释方式下，解释程序和源程序（或其某种等价表示）要参与到程序的运行过程中，运行程序的控制权在解释程序。解释器翻译源程序时不产生独立的目标程序，而编译器则需将源程序翻译成独立的目标程序。\n分阶段编译器的工作过程如下图所示。其中，中间代码生成和代码优化不是必须的。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 3,
+        "analysisImg": "4028818C91879841019188075C5F01B0.png",
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "88075E71FD4028818C91879841019188075D8A01B5",
+            "optionName": "参与运行控制，程序执行的速度慢",
+            "tppicId": "88075E6FF74028818C91879841019188075D8A01B1",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": true
+          },
+          {
+            "optionId": "88075E70FA4028818C91879841019188075D8A01B3",
+            "optionName": "不参与运行控制，程序执行的速度慢",
+            "tppicId": "88075E6FF74028818C91879841019188075D8A01B1",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "88075E72004028818C91879841019188075D8A01B7",
+            "optionName": "参与运行控制，程序执行的速度快",
+            "tppicId": "88075E6FF74028818C91879841019188075D8A01B1",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "88075E73034028818C91879841019188075D8A01B9",
+            "optionName": "不参与运行控制，程序执行的速度快",
+            "tppicId": "88075E6FF74028818C91879841019188075D8A01B1",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "8807C5CF654028818C9187984101918807C4E401BC",
+        "topicName": "函数t、f的定义如下所示，其中，a是整型全局变量。设调用函数t前a的值为5，则在函数t中以传值调用（call by value）方式调用函数f时，输出为（/）在函数t中以引用调用（callby reference）方式调用函数f时，输出为（ ）。",
+        "chapterId": "4FCA82246E2CA70ED4914FCA8201914FCA82220002",
+        "optionId": "8807C5D3714028818C9187984101918807C4E401C4",
+        "analysis": "传值调用中，形参取的是实参的值，形参的改变不会导致调用点所传的实参的值发生改变；而引用（传址）调用中，形参取的是实参的地址，即相当于实参存储单元的地址引用，因此其值的改变同时就改变了实参的值。本题中a是全局变量，因此会随着操作发生值的改变。\n在本题中，首先是采用传值调用，这个时候将变量a的值5传递给形参r，即r的值为5，那么a的值经过a=r+1后变成了6（r的值不变），而r的值经过r=r*2后变成了10，并返回，即在函数t中，变量x的值被赋值为10，那么在函数t中最后输出的时10+6=16。\n采用引用调用时，由于形参r指向的是实参a的存储空间，即r与a指向的是同一块存储单元，首先a的值为5，经过a=r+1后变成了6（r的值变为6），再经过r=r*2后变成了12，并返回，即在函数t中，变量x的值被赋值为12，那么在函数t中最后输出的时12+12=24。",
+        "topicImg": "4028818C91879841019188078A8F01BB.png",
+        "topicImgUrl": null,
+        "sort": 4,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "8807C5D26E4028818C9187984101918807C4E401C2",
+            "optionName": "20",
+            "tppicId": "8807C5CF654028818C9187984101918807C4E401BC",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "8807C5D0684028818C9187984101918807C4E401BE",
+            "optionName": "12",
+            "tppicId": "8807C5CF654028818C9187984101918807C4E401BC",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "8807C5D16B4028818C9187984101918807C4E401C0",
+            "optionName": "16",
+            "tppicId": "8807C5CF654028818C9187984101918807C4E401BC",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          },
+          {
+            "optionId": "8807C5D3714028818C9187984101918807C4E401C4",
+            "optionName": "24",
+            "tppicId": "8807C5CF654028818C9187984101918807C4E401BC",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": true
+          }
+        ]
+      },
+      {
+        "topicId": "8808419C3F4028818C918798410191880840AC01C6",
+        "topicName": "若一种程序设计语言规定其程序中的数据必须具有类型，则有利于（ ） .\n①在翻译程序的过程中为数据合理分配存储单元\n②对参与表达式计算的数据对象进行检查\n③定义和应用动态数据结构\n④规定数据对象的取值范围及能够进行的运算\n⑤对数据进行强制类型转换",
+        "chapterId": "4FCA82246E2CA70ED4914FCA8201914FCA82220002",
+        "optionId": "8808419E454028818C918798410191880840AC01CA",
+        "analysis": "一种程序设计语言规定其程序中的数据必须具有类型，好处如下：\n（1）有利于在翻译程序的过程中为数据合理分配存储单元，因为程序设计语言为不同的数据类型规定了其所占的存储空间，如果数据类型确定，其所占的存储空间也是确定的。\n（2）有利于对参与表达式计算的数据对象进行检查，因为知道数据的数据类型，我们就可以根据类型来判断该数据是否可以参与某表达式计算，如自加、自减的操作数不允许是浮点数，这只要根据数据的类型就能判断某操作数，是否能进行自加、自减运算。\n（3）有利于规定数据对象的取值范围及能够进行的运算，根据数据类型，我们可以数据的存储空间，也同时能知道数据的表示范围，如C语言中的整型数据，它占两个字节（16位），能表示的数据范围就是-2^16至2^16-1。\n故本题答案为B。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 5,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "8808419D424028818C918798410191880840AC01C8",
+            "optionName": "①②③",
+            "tppicId": "8808419C3F4028818C918798410191880840AC01C6",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "880841A04B4028818C918798410191880840AC01CE",
+            "optionName": "③④⑤",
+            "tppicId": "8808419C3F4028818C918798410191880840AC01C6",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "8808419F484028818C918798410191880840AC01CC",
+            "optionName": "②④⑤",
+            "tppicId": "8808419C3F4028818C918798410191880840AC01C6",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "8808419E454028818C918798410191880840AC01CA",
+            "optionName": "①②④",
+            "tppicId": "8808419C3F4028818C918798410191880840AC01C6",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": true
+          }
+        ]
+      },
+      {
+        "topicId": "88092342F64028818C9187984101918809224C01D1",
+        "topicName": "函数f和g的定义如下图所示。执行函数f时若采用引用（call by reference）方式调用函数g（a），则函数f的返回值为（ ）。",
+        "chapterId": "4FCA82246E2CA70ED4914FCA8201914FCA82220002",
+        "optionId": "88092346024028818C9187984101918809224C01D9",
+        "analysis": "本题采用引用调用，会改变实参的值。对于实参a，传递给g(a)之后，在g(a)函数，表现为形参x。\n根据g(x)代码：m=5*2=10，x=10-1=9，返回值x+m=19；\n返回f()代码，此时a（即g(x)中的x）的值已经改变为9；c等于g(a)的返回值，也就是19。\n最终可得f()的返回值a+c=28。",
+        "topicImg": "4028818C91879841019188086FAA01D0.png",
+        "topicImgUrl": null,
+        "sort": 6,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "88092343F94028818C9187984101918809224C01D3",
+            "optionName": "12",
+            "tppicId": "88092342F64028818C9187984101918809224C01D1",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "88092345FF4028818C9187984101918809224C01D7",
+            "optionName": "24",
+            "tppicId": "88092342F64028818C9187984101918809224C01D1",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "88092344FC4028818C9187984101918809224C01D5",
+            "optionName": "18",
+            "tppicId": "88092342F64028818C9187984101918809224C01D1",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          },
+          {
+            "optionId": "88092346024028818C9187984101918809224C01D9",
+            "optionName": "28",
+            "tppicId": "88092342F64028818C9187984101918809224C01D1",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": true
+          }
+        ]
+      },
+      {
+        "topicId": "8809EDB4784028818C9187984101918809ECB801DC",
+        "topicName": "编译器和解释器是两种基本的高级语言处理程序。编译器对高级语言源程序的处理过程可以划分为词法分析、语法分析、语义分析、中间代码生成、代码优化、目标代码生成等阶段，其中，（ ）并不是每个编译器都必需的，与编译器相比，解释器（/）。",
+        "chapterId": "4FCA82246E2CA70ED4914FCA8201914FCA82220002",
+        "optionId": "8809EDB7814028818C9187984101918809ECB801E2",
+        "analysis": "解释程序也称为解释器，它可以直接解释执行源程序，或者将源程序翻译成某种中间表示形式后再加以执行；而编译程序（编译器）则首先将源程序翻译成目标语言程序，然后在计算机上运行目标程序。这两种语言处理程序的根本区别是：在编译方式下，机器上运行的是与源程序等价的目标程序，源程序和编译程序都不再参与目标程序的执行过程；而在解释方式下，解释程序和源程序（或其某种等价表示）要参与到程序的运行过程中，运行程序的控制权在解释程序。解释器翻译源程序时不产生独立的目标程序，而编译器则需将源程序翻译成独立的目标程序。\n分阶段编译器的工作过程如下图所示。其中，中间代码生成和代码优化不是必须的。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 7,
+        "analysisImg": "4028818C9187984101918809DB1D01DB.png",
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "8809EDB67E4028818C9187984101918809ECB801E0",
+            "optionName": "语义分析和中间代码生成",
+            "tppicId": "8809EDB4784028818C9187984101918809ECB801DC",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          },
+          {
+            "optionId": "8809EDB7814028818C9187984101918809ECB801E2",
+            "optionName": "中间代码生成和代码优化",
+            "tppicId": "8809EDB4784028818C9187984101918809ECB801DC",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": true
+          },
+          {
+            "optionId": "8809EDB8844028818C9187984101918809ECB801E4",
+            "optionName": "代码优化和目标代码生成",
+            "tppicId": "8809EDB4784028818C9187984101918809ECB801DC",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "8809EDB57B4028818C9187984101918809ECB801DE",
+            "optionName": "词法分析和语法分析",
+            "tppicId": "8809EDB4784028818C9187984101918809ECB801DC",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "880AB7F1C54028818C918798410191880AB6EF01E7",
+        "topicName": "在KMP模式匹配算法中，需要求解模式串p的next函数值，其定义如下（其中，j 是字符在模式串中的序号）。对于模式串“abaabaca”，其next函数值序列为（ ）。",
+        "chapterId": "4FCA82246E2CA70ED4914FCA8201914FCA82220002",
+        "optionId": "880AB7F3CB4028818C918798410191880AB6EF01EB",
+        "analysis": "KMP模式匹配算法通俗点说就是一种在一个字符串中定位另一个串的高效算法。其实我们在做这个题目时，也可以不需要知道KMP模式匹配算法，可以根据题目给出的定义式来求解。\n当j=1时，很显然next[1]=0。\n当j=2时，由于1<k<j，因此k无法取到合适值，因此next[2]=1。\n当j=3时，k的取值为2，那么等号左边的‘P1P2…PK-1’字符串就是P1，为字符串中的第一个字符 a，而右边就是P2，即字符串中的第二个字符b，显然，它们不相等，因此next[3]=1。\n当j=4时，k可以取值2或者3，取值为2时，等号左边为第一个字符a，而等号右边为 P3，也是字符a，因此相等，但这个时候我们还要判定当k取值为3时，等号左边为第一与第二个字符，即‘ab’，而右边为‘ba’，显然不相等，因此next[4]=2。\n同理我们可以求得当j=5，j=6的结果，故本题答案为B。",
+        "topicImg": "4028818C918798410191880A2DC601E6.png",
+        "topicImgUrl": null,
+        "sort": 8,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "880AB7F2C84028818C918798410191880AB6EF01E9",
+            "optionName": "01111111",
+            "tppicId": "880AB7F1C54028818C918798410191880AB6EF01E7",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "880AB7F4CE4028818C918798410191880AB6EF01ED",
+            "optionName": "01234567",
+            "tppicId": "880AB7F1C54028818C918798410191880AB6EF01E7",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "880AB7F5D14028818C918798410191880AB6EF01EF",
+            "optionName": "01122334",
+            "tppicId": "880AB7F1C54028818C918798410191880AB6EF01E7",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "880AB7F3CB4028818C918798410191880AB6EF01EB",
+            "optionName": "01122341",
+            "tppicId": "880AB7F1C54028818C918798410191880AB6EF01E7",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": true
+          }
+        ]
+      },
+      {
+        "topicId": "880B439C7E4028818C918798410191880B429501F1",
+        "topicName": "（ ）绑定是指在运行时把过程调用和响应调用所需要执行的代码加以结合。",
+        "chapterId": "4FCA82246E2CA70ED4914FCA8201914FCA82220002",
+        "optionId": "880B439D814028818C918798410191880B429501F3",
+        "analysis": "运行时结合是动态绑定，编译时结合是静态绑定。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 9,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "880B43A08A4028818C918798410191880B429501F9",
+            "optionName": "参数",
+            "tppicId": "880B439C7E4028818C918798410191880B429501F1",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "880B439D814028818C918798410191880B429501F3",
+            "optionName": "动态",
+            "tppicId": "880B439C7E4028818C918798410191880B429501F1",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": true
+          },
+          {
+            "optionId": "880B439F874028818C918798410191880B429501F7",
+            "optionName": "静态",
+            "tppicId": "880B439C7E4028818C918798410191880B429501F1",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "880B439E844028818C918798410191880B429501F5",
+            "optionName": "过载",
+            "tppicId": "880B439C7E4028818C918798410191880B429501F1",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "880BFB2E204028818C918798410191880BFA2101FC",
+        "topicName": "下图是HTML文件test.html在IE中的显示效果，实现图中①处效果的HTML语句是（/），实现图中②处效果的HTML语句是（ ），实现图中③处效果的HTML 语句是（/）。",
+        "chapterId": "4FCA82246E2CA70ED4914FCA8201914FCA82220002",
+        "optionId": "880BFB2F234028818C918798410191880BFA2101FE",
+        "analysis": "①处显示的信息为文档的标题，釆用<TITLE></TITLE>标记。\n②处为一条分隔线， 釆用<HR>标记。\n③处字体Welcome是斜体，釆用<I></I>标记。",
+        "topicImg": "4028818C918798410191880BB85D01FB.png",
+        "topicImgUrl": null,
+        "sort": 10,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "880BFB31294028818C918798410191880BFA210202",
+            "optionName": "<CELL></CELL >",
+            "tppicId": "880BFB2E204028818C918798410191880BFA2101FC",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "880BFB322C4028818C918798410191880BFA210204",
+            "optionName": "<TR></TR >",
+            "tppicId": "880BFB2E204028818C918798410191880BFA2101FC",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "880BFB2F234028818C918798410191880BFA2101FE",
+            "optionName": "<HR>",
+            "tppicId": "880BFB2E204028818C918798410191880BFA2101FC",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": true
+          },
+          {
+            "optionId": "880BFB30264028818C918798410191880BFA210200",
+            "optionName": "<LINE></LINE >",
+            "tppicId": "880BFB2E204028818C918798410191880BFA2101FC",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "880C70A5A54028818C918798410191880C6F920207",
+        "topicName": "下图所示有限自动机的特点是（ ）。",
+        "chapterId": "4FCA82246E2CA70ED4914FCA8201914FCA82220002",
+        "optionId": "880C70A9B14028818C918798410191880C6F92020F",
+        "analysis": "对于题中自动机的状态图，先忽略状态q0的自环（识别若干个0），从初态q0到终态q1，该自动机可识别的字符串为1、101、10101、…，显然，该自动机识别的0、1 串中1不能连续出现",
+        "topicImg": "4028818C918798410191880C262A0206.png",
+        "topicImgUrl": null,
+        "sort": 11,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "880C70A8AE4028818C918798410191880C6F92020D",
+            "optionName": "识别的0、1串中0后面必须是1",
+            "tppicId": "880C70A5A54028818C918798410191880C6F920207",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "880C70A7AB4028818C918798410191880C6F92020B",
+            "optionName": "识别的0、1串中1的数目为偶数",
+            "tppicId": "880C70A5A54028818C918798410191880C6F920207",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          },
+          {
+            "optionId": "880C70A9B14028818C918798410191880C6F92020F",
+            "optionName": "识别的0、1串中1不能连续出现",
+            "tppicId": "880C70A5A54028818C918798410191880C6F920207",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": true
+          },
+          {
+            "optionId": "880C70A6A84028818C918798410191880C6F920209",
+            "optionName": "识别的0、1串是以0开头且以1结尾",
+            "tppicId": "880C70A5A54028818C918798410191880C6F920207",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "880E2F314E4028818C918798410191880E2E110219",
+        "topicName": "与等价的逻辑表达式是（ ）。（⊕表示逻辑异或，＋表示逻辑加）",
+        "chapterId": "4FCA82246E2CA70ED4914FCA8201914FCA82220002",
+        "optionId": "880E2F33544028818C918798410191880E2E11021D",
+        "analysis": null,
+        "topicImg": "4028818C918798410191880D42980213.png",
+        "topicImgUrl": null,
+        "sort": 12,
+        "analysisImg": "4028818C918798410191880E297B0218.png",
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "880E2F355A4028818C918798410191880E2E110221",
+            "optionName": null,
+            "tppicId": "880E2F314E4028818C918798410191880E2E110219",
+            "optionImg": "4028818C918798410191880DC23E0217.png",
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "880E2F33544028818C918798410191880E2E11021D",
+            "optionName": null,
+            "tppicId": "880E2F314E4028818C918798410191880E2E110219",
+            "optionImg": "4028818C918798410191880D62CE0215.png",
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": true
+          },
+          {
+            "optionId": "880E2F32514028818C918798410191880E2E11021B",
+            "optionName": null,
+            "tppicId": "880E2F314E4028818C918798410191880E2E110219",
+            "optionImg": "4028818C918798410191880D52900214.png",
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "880E2F34574028818C918798410191880E2E11021F",
+            "optionName": null,
+            "tppicId": "880E2F314E4028818C918798410191880E2E110219",
+            "optionImg": "4028818C918798410191880D9DCC0216.png",
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "880EA2E6104028818C918798410191880EA1C10223",
+        "topicName": "在高级语言源程序中，常需要用户定义的标识符为程序中的对象命名，常见的命名对象有（ ）\n①关键字（或保留字）②变量③函数④数据类型⑤注释",
+        "chapterId": "4FCA82246E2CA70ED4914FCA8201914FCA82220002",
+        "optionId": "880EA2E8164028818C918798410191880EA1C10227",
+        "analysis": "在源程序中，可由用户（程序员）为变量、函数和数据类型等命名。",
+        "topicImg": null,
+        "topicImgUrl": null,
+        "sort": 13,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "880EA2EA1C4028818C918798410191880EA1C1022B",
+            "optionName": "②④⑤",
+            "tppicId": "880EA2E6104028818C918798410191880EA1C10223",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "880EA2E9194028818C918798410191880EA1C10229",
+            "optionName": "①③⑤",
+            "tppicId": "880EA2E6104028818C918798410191880EA1C10223",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          },
+          {
+            "optionId": "880EA2E7134028818C918798410191880EA1C10225",
+            "optionName": "①②③",
+            "tppicId": "880EA2E6104028818C918798410191880EA1C10223",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "880EA2E8164028818C918798410191880EA1C10227",
+            "optionName": "②③④",
+            "tppicId": "880EA2E6104028818C918798410191880EA1C10223",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": true
+          }
+        ]
+      },
+      {
+        "topicId": "880F1EFD354028818C918798410191880F1DD2022E",
+        "topicName": "函数t、f的定义如下所示，其中，a是整型全局变量。设调用函数t前a的值为5，则在函数t中以传值调用（call by value）方式调用函数f时，输出为（ ）在函数t中以引用调用（callby reference）方式调用函数f时，输出为（/）。",
+        "chapterId": "4FCA82246E2CA70ED4914FCA8201914FCA82220002",
+        "optionId": "880F1EFF3B4028818C918798410191880F1DD20232",
+        "analysis": "传值调用中，形参取的是实参的值，形参的改变不会导致调用点所传的实参的值发生改变；而引用（传址）调用中，形参取的是实参的地址，即相当于实参存储单元的地址引用，因此其值的改变同时就改变了实参的值。本题中a是全局变量，因此会随着操作发生值的改变。\n在本题中，首先是采用传值调用，这个时候将变量a的值5传递给形参r，即r的值为5，那么a的值经过a=r+1后变成了6（r的值不变），而r的值经过r=r*2后变成了10，并返回，即在函数t中，变量x的值被赋值为10，那么在函数t中最后输出的时10+6=16。\n采用引用调用时，由于形参r指向的是实参a的存储空间，即r与a指向的是同一块存储单元，首先a的值为5，经过a=r+1后变成了6（r的值变为6），再经过r=r*2后变成了12，并返回，即在函数t中，变量x的值被赋值为12，那么在函数t中最后输出的时12+12=24。",
+        "topicImg": "4028818C918798410191880ED336022D.png",
+        "topicImgUrl": null,
+        "sort": 14,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "880F1EFE384028818C918798410191880F1DD20230",
+            "optionName": "12",
+            "tppicId": "880F1EFD354028818C918798410191880F1DD2022E",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          },
+          {
+            "optionId": "880F1F01414028818C918798410191880F1DD20236",
+            "optionName": "24",
+            "tppicId": "880F1EFD354028818C918798410191880F1DD2022E",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "880F1EFF3B4028818C918798410191880F1DD20232",
+            "optionName": "16",
+            "tppicId": "880F1EFD354028818C918798410191880F1DD2022E",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": true
+          },
+          {
+            "optionId": "880F1F003E4028818C918798410191880F1DD20234",
+            "optionName": "20",
+            "tppicId": "880F1EFD354028818C918798410191880F1DD2022E",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": false
+          }
+        ]
+      },
+      {
+        "topicId": "880FB0C30A4028818C918798410191880FAF920239",
+        "topicName": "下图是HTML文件test.html在IE中的显示效果，实现图中①处效果的HTML语句是（/），实现图中②处效果的HTML语句是（/），实现图中③处效果的HTML 语句是（ ）。",
+        "chapterId": "4FCA82246E2CA70ED4914FCA8201914FCA82220002",
+        "optionId": "880FB0C6134028818C918798410191880FAF92023F",
+        "analysis": "①处显示的信息为文档的标题，釆用<TITLE></TITLE>标记。\n②处为一条分隔线， 釆用<HR>标记。\n③处字体Welcome是斜体，釆用<I></I>标记。",
+        "topicImg": "4028818C918798410191880F447A0238.png",
+        "topicImgUrl": null,
+        "sort": 15,
+        "analysisImg": null,
+        "analysisImgUrl": null,
+        "isFavorite": null,
+        "optionData": [
+          {
+            "optionId": "880FB0C6134028818C918798410191880FAF92023F",
+            "optionName": "<I>Welcome</I>",
+            "tppicId": "880FB0C30A4028818C918798410191880FAF920239",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 2,
+            "answer": true
+          },
+          {
+            "optionId": "880FB0C5104028818C918798410191880FAF92023D",
+            "optionName": "<UL>Welcome</UL>",
+            "tppicId": "880FB0C30A4028818C918798410191880FAF920239",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 1,
+            "answer": false
+          },
+          {
+            "optionId": "880FB0C7164028818C918798410191880FAF920241",
+            "optionName": "<H>Welcome</H>",
+            "tppicId": "880FB0C30A4028818C918798410191880FAF920239",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 3,
+            "answer": false
+          },
+          {
+            "optionId": "880FB0C40D4028818C918798410191880FAF92023B",
+            "optionName": "<B>Welcome</B>",
+            "tppicId": "880FB0C30A4028818C918798410191880FAF920239",
+            "optionImg": null,
+            "optionImgUrl": null,
+            "sort": 0,
+            "answer": false
+          }
+        ]
+      }
+    ]
+  }
+]
